@@ -10,14 +10,14 @@
 ## 💼 Experiência Profissional
 
 ### **Cargo Atual** – Empresa XYZ _(Ano - Presente)_  
-- 🛠️ Responsabilidade 1  
-- 🔍 Responsabilidade 2  
-- 📊 Responsabilidade 3  
+- 🛠️ Responsabilidade 1: Descrição detalhada da responsabilidade e impacto.
+- 🔍 Responsabilidade 2: Descrição detalhada da responsabilidade e impacto.
+- 📊 Responsabilidade 3: Descrição detalhada da responsabilidade e impacto.
 
 ### **Cargo Anterior** – Empresa ABC _(Ano - Ano)_  
-- ✅ Responsabilidade 1  
-- ⚙️ Responsabilidade 2  
-- 📈 Responsabilidade 3  
+- ✅ Responsabilidade 1: Descrição detalhada da responsabilidade e impacto.
+- ⚙️ Responsabilidade 2: Descrição detalhada da responsabilidade e impacto.
+- 📈 Responsabilidade 3: Descrição detalhada da responsabilidade e impacto.
 
 ---
 
@@ -34,10 +34,10 @@
 
 ## 🚀 Skills Técnicas
 
-- ✅ Skill 1  
-- ✅ Skill 2  
-- ✅ Skill 3  
-- ✅ Skill 4  
+- ✅ Skill 1: Descrição ou nível de proficiência.
+- ✅ Skill 2: Descrição ou nível de proficiência.
+- ✅ Skill 3: Descrição ou nível de proficiência.
+- ✅ Skill 4: Descrição ou nível de proficiência.
 
 ---
 
@@ -65,5 +65,4 @@
 - 🎓 Nome do Curso – Organização _(Ano)_  
 
 ---
-
-📝 _Última atualização: $(date +'%d/%m/%Y')_
+📝 _Última atualização: 19/02/2025_
