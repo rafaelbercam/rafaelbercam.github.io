@@ -1,68 +1,123 @@
 # ![Perfil](https://github.com/rafaelbercam.png?size=200)  
-# Rafael Bercam  
-*Quality Analyst Specialist*  
-📍 Localização: [Cidade, País]  
+# Rafael Berçam  
+*QA Engineer Specialist - SDET - Automated Testing*  
+📍 Localização: Fort Worth, Texas, EUA  
 📧 Email: [faelbercam@gmail.com](mailto:faelbercam@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/seu-perfil) | [GitHub](https://github.com/rafaelbercam) | [Portfolio](https://seuportfolio.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/rafaelbercam) | [GitHub](https://github.com/rafaelbercam) | [Portfolio](https://rafaelbercam.github.io/)  
 
 ---
 
-## 💼 Experiência Profissional
+## 💼 Experiência Profissional  
 
-### **Cargo Atual** – Empresa XYZ _(Ano - Presente)_  
-- 🛠️ Responsabilidade 1: Descrição detalhada da responsabilidade e impacto.
-- 🔍 Responsabilidade 2: Descrição detalhada da responsabilidade e impacto.
-- 📊 Responsabilidade 3: Descrição detalhada da responsabilidade e impacto.
+### **QA Engineer Specialist** – Zup Innovation _(Jul 2022 - Presente)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🏗️ **QA Stack**: API Testing (Rest-assured - Kotlin), Front-end Testing (Playwright - TypeScript).  
+- 💻 **Dev Stack**: API development (Kotlin + Spring Boot), Front-end development (Angular / React - JavaScript).  
 
-### **Cargo Anterior** – Empresa ABC _(Ano - Ano)_  
-- ✅ Responsabilidade 1: Descrição detalhada da responsabilidade e impacto.
-- ⚙️ Responsabilidade 2: Descrição detalhada da responsabilidade e impacto.
-- 📈 Responsabilidade 3: Descrição detalhada da responsabilidade e impacto.
+### **Tech Lead** – Zup Innovation _(Out 2021 - Jul 2022)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🔹 Liderança técnica de times para entrega de projetos.  
+- 🔹 Mentoria e desenvolvimento de carreira dos membros da equipe.  
+- 🔹 Definição de estratégias de produção com times ágeis.  
+
+### **Senior QA Automation Engineer** – Zup Innovation _(Set 2020 - Jun 2021)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🔍 Automação de testes de microsserviços REST (Rest-assured - Java).  
+- 🚀 Testes automatizados mobile (Espresso / XCUITest / Appium - Java).  
+- 🛡️ Testes de segurança e performance.  
+- 🏗️ Desenvolvimento com Spring Boot e Micronaut (Java/Kotlin).  
+
+### **Senior QA Automation Engineer** – Syngenta Digital Brasil _(Abr 2020 - Set 2020)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🛠️ Automação de testes mobile com WebdriverIO para React Native (Node.js).  
+- 🚀 Automação de testes Web com Cypress.io (Node.js).  
+- 📊 Testes de performance de APIs com Artillery.io.  
+
+### **QA Automation Engineer | Tech Lead | Chapter Lead** – MaxMilhas _(Out 2018 - Abr 2020)_  
+📍 Belo Horizonte, MG, Brasil  
+- 📲 Automação de testes mobile (Espresso - Kotlin, XCUITest - Swift, Appium - Ruby).  
+- 🌐 Automação de testes Web (Cypress.io - Node.js).  
+- 🔍 Automação de testes API (Mocha & Chai - TypeScript, HTTParty - Ruby).  
+- 📈 Análise de métricas de produto e processos de desenvolvimento ágil.  
+
+### **QA Automation Engineer** – conta.MOBI _(Fev 2018 - Out 2018)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🔹 Planejamento e execução de testes funcionais, exploratórios e de regressão.  
+- 🔹 Automação de testes de regressão, E2E, performance e carga.  
+
+### **QA Engineer** – Algar Tech _(Out 2012 - Jan 2018)_  
+📍 Belo Horizonte, MG, Brasil  
+- 📌 Análise de requisitos, modelagem e automação de testes (Selenium-WebDriver + Cucumber - Ruby/Java).  
+- 📊 Relatórios de qualidade e rastreabilidade de cenários executados.  
+
+### **QA Engineer** – SISLOC _(Abr 2011 - Out 2012)_  
+📍 Belo Horizonte, MG, Brasil  
+- 🎓 Treinamento de usuários, levantamento de requisitos e consultoria.  
+- 🛠️ Automação e melhoria dos processos de teste.  
 
 ---
 
-## 🎓 Formação Acadêmica
+## 🎓 Formação Acadêmica  
 
-### **Graduação em Nome do Curso**  
-🎓 Instituição de Ensino – _(Ano de Conclusão)_  
+### **Bachelor of Technology (B.Tech.) Information Technology**  
+🎓 Centro Universitário UNA _(2012 - 2014)_  
 
-### **Certificações**  
-📜 Nome da Certificação – Organização _(Ano)_  
-📜 Nome da Certificação – Organização _(Ano)_  
-
----
-
-## 🚀 Skills Técnicas
-
-- ✅ Skill 1: Descrição ou nível de proficiência.
-- ✅ Skill 2: Descrição ou nível de proficiência.
-- ✅ Skill 3: Descrição ou nível de proficiência.
-- ✅ Skill 4: Descrição ou nível de proficiência.
+### **Arquitetura de Soluções**  
+🎓 PUC Minas _(Ano não especificado)_  
 
 ---
 
-## 📂 Projetos Destacados
+## 📜 Certificações  
 
-### **Projeto 1** – [Link para o Projeto](https://github.com/SEU_USUARIO_GITHUB/PROJETO)  
-📌 Pequena descrição do projeto e tecnologias utilizadas.
+- 📜 **Certified Tester Foundation Level (CTFL)** – ISTQB _(2015)_  
+- 📜 **Certified Agile Tester (CAT)** – iSQI _(2017)_  
+- 📜 **Scrum Foundation Professional Certificate (SFPC)** – CertiProf _(2020)_  
+- 📜 **DevOps Essentials Professional Certificate (DEPC)** – CertiProf _(2020)_  
+- 📜 **English Conversation Practice** – Cambly Inc. _(2020)_  
 
-### **Projeto 2** – [Link para o Projeto](https://github.com/SEU_USUARIO_GITHUB/PROJETO)  
-📌 Pequena descrição do projeto e tecnologias utilizadas.
+---
+
+## 🚀 Skills Técnicas  
+
+- ✅ **Testes de API**: Rest-assured (Kotlin/Java), Mocha & Chai (TypeScript).  
+- ✅ **Testes Web**: Cypress.io (Node.js), Playwright (TypeScript).  
+- ✅ **Testes Mobile**: Espresso (Kotlin), XCUITest (Swift), Appium (Java/Ruby).  
+- ✅ **Testes de Performance**: Artillery.io, JMeter.  
+- ✅ **Desenvolvimento**: Kotlin + Spring Boot, Micronaut, Angular, React.  
+
+---
+
+## 📂 Projetos Destacados  
+
+### **Boilerplates** – [Repositório GitHub](https://github.com/rafaelbercam/boilerplates)  
+📌 Modelos para projetos de automação de testes.  
+
+### **API Tests TypeScript** – [Repositório GitHub](https://github.com/rafaelbercam/api-tests-typescript)  
+📌 Automação de testes de API utilizando TypeScript.  
 
 ---
 
 ## 💬 Idiomas  
 
-- 🇬🇧 Inglês – [Nível]  
-- 🇪🇸 Espanhol – [Nível]  
+- 🇬🇧 Inglês – Avançado  
+- 🇪🇸 Espanhol – Intermediário  
 - 🇧🇷 Português – Nativo  
 
 ---
 
 ## 📚 Cursos e Workshops  
 
-- 🎓 Nome do Curso – Organização _(Ano)_  
-- 🎓 Nome do Curso – Organização _(Ano)_  
+- 🎓 **Curso de Testes Automatizados** – Udemy _(2021)_  
+- 🎓 **Workshop de Agile Testing** – Agile Testing Days _(2019)_  
 
 ---
+
+## 🤝 Experiência Voluntária  
+
+### **Instrutor de Informática** – Assprom _(Jan 2007 - Dez 2007)_  
+📍 Educação  
+- 💻 Ensino de informática para jovens trabalhadores.  
+
+---
+
 📝 _Última atualização: 19/02/2025_
