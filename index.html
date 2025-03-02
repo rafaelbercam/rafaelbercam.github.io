@@ -13,6 +13,7 @@
         <h1>Rafael Berçam</h1>
         <p>QA Engineer Specialist - SDET - Automated Testing</p>
         <p>📍 Fort Worth, Texas, EUA</p>
+        <p>📍 Belo Horizonte, MG, Brasil</p>
         <p>📧 <a href="mailto:faelbercam@gmail.com">faelbercam@gmail.com</a></p>
         <p>
             🔗 <a href="https://www.linkedin.com/in/rafaelbercam" target="_blank">LinkedIn</a> |
@@ -132,19 +133,38 @@
         </ul>
     </section>
 
-    <section>
-        <h2>📂 Projetos Destacados</h2>
-        <div class="project">
-            <h3>Boilerplates</h3>
-            <p><a href="https://github.com/rafaelbercam/boilerplates" target="_blank">Repositório GitHub</a></p>
-            <p>📌 Modelos para projetos de automação de testes.</p>
-        </div>
-        <div class="project">
-            <h3>API Tests TypeScript</h3>
-            <p><a href="https://github.com/rafaelbercam/api-tests-typescript" target="_blank">Repositório GitHub</a></p>
-            <p>📌 Automação de testes de API utilizando TypeScript.</p>
-        </div>
-    </section>
+   <section>
+       <h2>📂 Projetos Destacados</h2>
+       <div id="github-projects"></div>
+   </section>
+   
+   <script>
+       async function fetchGitHubRepo(repo) {
+           const response = await fetch(`https://api.github.com/repos/rafaelbercam/${repo}`);
+           const data = await response.json();
+           return data;
+       }
+   
+       async function displayProjects() {
+           const projects = ['boilerplates', 'api-tests-typescript'];
+           const container = document.getElementById('github-projects');
+   
+           for (const project of projects) {
+               const repo = await fetchGitHubRepo(project);
+               const projectHTML = `
+                   <div class="project">
+                       <h3>${repo.name}</h3>
+                       <p>${repo.description}</p>
+                       <p>⭐ Stars: ${repo.stargazers_count} | 🍴 Forks: ${repo.forks_count}</p>
+                       <a href="${repo.html_url}" target="_blank">Ver no GitHub</a>
+                   </div>
+               `;
+               container.innerHTML += projectHTML;
+           }
+       }
+   
+       displayProjects();
+   </script>
 
     <section>
         <h2>💬 Idiomas</h2>
@@ -175,7 +195,7 @@
     </section>
 
     <footer>
-        <p>Última atualização: 19/02/2025</p>
+        <p>Última atualização: 02/03/2025</p>
     </footer>
 
     <script>
