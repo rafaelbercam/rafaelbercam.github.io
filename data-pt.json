@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "RAFAEL BERÇAM",
+    "name": "RAFAEL BERÇAM MEDEIROS",
     "title": "QA Engineer Specialist | SDET | Testes Automatizados",
     "location": "Belo Horizonte, MG, Brasil",
     "email": "faelbercam@gmail.com",
@@ -16,7 +16,9 @@
       "responsibilities": [
         "Testes de API com Rest-assured (Kotlin) e Playwright (TypeScript)",
         "Desenvolvimento de API com Kotlin + Spring Boot",
-        "Desenvolvimento front-end com Angular e React"
+        "Desenvolvimento front-end com Angular e React",
+        "Geração de testes com IA Generativa (Devin, GitHub Copilot, StackSpot AI)",
+        "Pesquisas com IA para criação de testes robustos e mais eficientes"
       ]
     },
     {
