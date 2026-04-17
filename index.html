@@ -5,202 +5,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael Berçam - Currículo</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 </head>
 <body>
-    <header>
-        <img src="https://github.com/rafaelbercam.png?size=200" alt="Foto de Rafael Berçam">
-        <h1>Rafael Berçam</h1>
-        <p>QA Engineer Specialist - SDET - Automated Testing</p>
-        <p>📍 Fort Worth, Texas, EUA</p>
-        <p>📍 Belo Horizonte, MG, Brasil</p>
-        <p>📧 <a href="mailto:faelbercam@gmail.com">faelbercam@gmail.com</a></p>
-        <p>
-            🔗 <a href="https://www.linkedin.com/in/rafaelbercam" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/rafaelbercam" target="_blank">GitHub</a> |
-            <a href="https://rafaelbercam.github.io/" target="_blank">Portfolio</a>
-        </p>
-        <p>
-            <button id="download-pdf">Baixar Currículo em PDF</button>
-        </p>
-    </header>
+    <div class="language-toggle">
+        <button id="lang-pt" class="lang-btn active" data-lang="pt">PT</button>
+        <button id="lang-en" class="lang-btn" data-lang="en">EN</button>
+    </div>
 
-    <section id="content">
-        <h2>💼 Experiência Profissional</h2>
-        <div class="job">
-            <h3>QA Engineer Specialist – Zup Innovation</h3>
-            <p><em>Jul 2022 - Presente | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>🏗️ QA Stack: API Testing (Rest-assured - Kotlin), Front-end Testing (Playwright - TypeScript).</li>
-                <li>💻 Dev Stack: API development (Kotlin + Spring Boot), Front-end development (Angular / React - JavaScript).</li>
-            </ul>
-        </div>
+    <div class="container">
+        <header id="header">
+            <h1 id="name"></h1>
+            <p class="title" id="title"></p>
+            
+            <div class="contact-info" id="contact-info">
+            </div>
+        </header>
+
         
-        <div class="job">
-            <h3>Tech Lead – Zup Innovation</h3>
-            <p><em>Out 2021 - Jul 2022 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>🔹 Liderança técnica de times para entrega de projetos.</li>
-                <li>🔹 Mentoria e desenvolvimento de carreira dos membros da equipe.</li>
-                <li>🔹 Definição de estratégias de produção com times ágeis.</li>
-            </ul>
-        </div>
+        <section id="experience-section">
+            <h2 id="experience-title"></h2>
+            <div id="experience-content"></div>
+        </section>
 
-        <div class="job">
-            <h3>Senior QA Automation Engineer – Zup Innovation</h3>
-            <p><em>Set 2020 - Jun 2021 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>🔍 Automação de testes de microsserviços REST (Rest-assured - Java).</li>
-                <li>🚀 Testes automatizados mobile (Espresso / XCUITest / Appium - Java).</li>
-                <li>🛡️ Testes de segurança e performance.</li>
-                <li>🏗️ Desenvolvimento com Spring Boot e Micronaut (Java/Kotlin).</li>
-            </ul>
-        </div>
+        <section id="education-section">
+            <h2 id="education-title"></h2>
+            <div id="education-content"></div>
+        </section>
 
-        <div class="job">
-            <h3>Senior QA Automation Engineer – Syngenta Digital Brasil</h3>
-            <p><em>Abr 2020 - Set 2020 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>🛠️ Automação de testes mobile com WebdriverIO para React Native (Node.js).</li>
-                <li>🚀 Automação de testes Web com Cypress.io (Node.js).</li>
-                <li>📊 Testes de performance de APIs com Artillery.io.</li>
-            </ul>
-        </div>
+        <section id="certifications-section">
+            <h2 id="certifications-title"></h2>
+            <div id="certifications-content"></div>
+        </section>
 
-        <div class="job">
-            <h3>QA Automation Engineer | Tech Lead | Chapter Lead – MaxMilhas</h3>
-            <p><em>Out 2018 - Abr 2020 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>📲 Automação de testes mobile (Espresso - Kotlin, XCUITest - Swift, Appium - Ruby).</li>
-                <li>🌐 Automação de testes Web (Cypress.io - Node.js).</li>
-                <li>🔍 Automação de testes API (Mocha & Chai - TypeScript, HTTParty - Ruby).</li>
-                <li>📈 Análise de métricas de produto e processos de desenvolvimento ágil.</li>
-            </ul>
-        </div>
+        <section id="skills-section">
+            <h2 id="skills-title"></h2>
+            <div id="skills-content" class="skills-grid"></div>
+        </section>
 
-        <div class="job">
-            <h3>QA Automation Engineer – conta.MOBI</h3>
-            <p><em>Fev 2018 - Out 2018 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>🔹 Planejamento e execução de testes funcionais, exploratórios e de regressão.</li>
-                <li>🔹 Automação de testes de regressão, E2E, performance e carga.</li>
-            </ul>
-        </div>
+        <section id="languages-section">
+            <h2 id="languages-title"></h2>
+            <div id="languages-content"></div>
+        </section>
 
-        <div class="job">
-            <h3>QA Engineer – Algar Tech</h3>
-            <p><em>Out 2012 - Jan 2018 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>📌 Análise de requisitos, modelagem e automação de testes (Selenium-WebDriver + Cucumber - Ruby/Java).</li>
-                <li>📊 Relatórios de qualidade e rastreabilidade de cenários executados.</li>
-            </ul>
-        </div>
+        <section id="volunteer-section">
+            <h2 id="volunteer-title"></h2>
+            <div id="volunteer-content"></div>
+        </section>
 
-        <div class="job">
-            <h3>QA Engineer – SISLOC</h3>
-            <p><em>Abr 2011 - Out 2012 | Belo Horizonte, MG, Brasil</em></p>
-            <ul>
-                <li>� Treinamento de usuários, levantamento de requisitos e consultoria.</li>
-                <li>🛠️ Automação e melhoria dos processos de teste.</li>
-            </ul>
-        </div>
-    </section>
-    
-    <section>
-        <h2>🎓 Formação Acadêmica</h2>
-        <p><strong>Bachelor of Technology (B.Tech.) Information Technology</strong> – Centro Universitário UNA (2012 - 2014)</p>
-    </section>
-
-    <section>
-        <h2>📜 Certificações</h2>
-        <ul>
-            <li>📜 Certified Tester Foundation Level (CTFL) – ISTQB (2015)</li>
-            <li>📜 Certified Agile Tester (CAT) – iSQI (2017)</li>
-            <li>📜 Scrum Foundation Professional Certificate (SFPC) – CertiProf (2020)</li>
-            <li>📜 DevOps Essentials Professional Certificate (DEPC) – CertiProf (2020)</li>
-            <li>📜 English Conversation Practice – Cambly Inc. (2020)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🚀 Skills Técnicas</h2>
-        <ul>
-            <li>✅ Testes de API: Rest-assured (Kotlin/Java), Mocha & Chai (TypeScript).</li>
-            <li>✅ Testes Web: Cypress.io (Node.js), Playwright (TypeScript).</li>
-            <li>✅ Testes Mobile: Espresso (Kotlin), XCUITest (Swift), Appium (Java/Ruby).</li>
-            <li>✅ Testes de Performance: Artillery.io, JMeter.</li>
-            <li>✅ Desenvolvimento: Kotlin + Spring Boot, Micronaut, Angular, React.</li>
-        </ul>
-    </section>
-
-   <section>
-       <h2>📂 Projetos Destacados</h2>
-       <div id="github-projects"></div>
-   </section>
-   
-   <script>
-       async function fetchGitHubRepo(repo) {
-           const response = await fetch(`https://api.github.com/repos/rafaelbercam/${repo}`);
-           const data = await response.json();
-           return data;
-       }
-   
-       async function displayProjects() {
-           const projects = ['boilerplates', 'api-tests-typescript'];
-           const container = document.getElementById('github-projects');
-   
-           for (const project of projects) {
-               const repo = await fetchGitHubRepo(project);
-               const projectHTML = `
-                   <div class="project">
-                       <h3>${repo.name}</h3>
-                       <p>${repo.description}</p>
-                       <p>⭐ Stars: ${repo.stargazers_count} | 🍴 Forks: ${repo.forks_count}</p>
-                       <a href="${repo.html_url}" target="_blank">Ver no GitHub</a>
-                   </div>
-               `;
-               container.innerHTML += projectHTML;
-           }
-       }
-   
-       displayProjects();
-   </script>
-
-    <section>
-        <h2>💬 Idiomas</h2>
-        <ul>
-            <li>🇬🇧 Inglês – Avançado</li>
-            <li>🇪🇸 Espanhol – Intermediário</li>
-            <li>🇧🇷 Português – Nativo</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>📚 Cursos e Workshops</h2>
-        <ul>
-            <li>🎓 Curso de Testes Automatizados – Udemy (2021)</li>
-            <li>🎓 Workshop de Agile Testing – Agile Testing Days (2019)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🤝 Experiência Voluntária</h2>
-        <div class="volunteer">
-            <h3>Instrutor de Informática – Assprom</h3>
-            <p><em>Jan 2007 - Dez 2007 | Educação</em></p>
-            <ul>
-                <li>💻 Ensino de informática para jovens trabalhadores.</li>
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <p>Última atualização: 02/03/2025</p>
-    </footer>
+        <footer>
+            <div class="footer-content">
+                <p class="last-update" id="last-update"></p>
+                <button id="download-pdf-btn" class="pdf-btn"></button>
+            </div>
+        </footer>
+    </div>
 
     <script>
-        document.getElementById('download-pdf').addEventListener('click', function() {
-            window.print();
+        // Language Management and Data Loading
+        let currentLanguage = localStorage.getItem('resumeLanguage') || 'pt';
+        let currentData = {};
+
+        async function loadData(lang) {
+            try {
+                const response = await fetch(`data-${lang}.json`);
+                currentData = await response.json();
+                renderResume();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function renderResume() {
+            const data = currentData;
+
+            // Personal Info
+            document.getElementById('name').textContent = data.personal.name;
+            document.getElementById('title').textContent = data.personal.title;
+            
+            const contactInfo = document.getElementById('contact-info');
+            contactInfo.innerHTML = `
+                <span>${data.personal.location}</span>
+                <span>•</span>
+                <span><a href="mailto:${data.personal.email}">${data.personal.email}</a></span>
+                <span>•</span>
+                <span><a href="${data.personal.linkedin}" target="_blank">LinkedIn</a></span>
+                <span>•</span>
+                <span><a href="${data.personal.github}" target="_blank">GitHub</a></span>
+            `;
+
+            // Experience
+            document.getElementById('experience-title').textContent = data.sections.experience;
+            const experienceContent = document.getElementById('experience-content');
+            experienceContent.innerHTML = data.experience.map(job => `
+                <div class="job">
+                    <div class="job-header">
+                        <h3>${job.title}</h3>
+                        <span class="date">${job.period}</span>
+                    </div>
+                    <p class="company">${job.company}</p>
+                    <ul>
+                        ${job.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
+                    </ul>
+                </div>
+            `).join('');
+
+            // Education
+            document.getElementById('education-title').textContent = data.sections.education;
+            const educationContent = document.getElementById('education-content');
+            educationContent.innerHTML = data.education.map(edu => `
+                <div class="education">
+                    <h3>${edu.degree}</h3>
+                    <p class="company">${edu.institution}</p>
+                    <p class="date">${edu.period}</p>
+                </div>
+            `).join('');
+
+            // Certifications
+            document.getElementById('certifications-title').textContent = data.sections.certifications;
+            const certificationsContent = document.getElementById('certifications-content');
+            certificationsContent.innerHTML = `
+                <ul>
+                    ${data.certifications.map(cert => `<li>${cert.name} (${cert.year})</li>`).join('')}
+                </ul>
+            `;
+
+            // Skills
+            document.getElementById('skills-title').textContent = data.sections.skills;
+            const skillsContent = document.getElementById('skills-content');
+            skillsContent.innerHTML = data.skills.map(skill => `
+                <div class="skill-category">
+                    <h4>${skill.category}</h4>
+                    <p>${skill.description}</p>
+                </div>
+            `).join('');
+
+            // Languages
+            document.getElementById('languages-title').textContent = data.sections.languages;
+            const languagesContent = document.getElementById('languages-content');
+            languagesContent.innerHTML = `
+                <ul>
+                    ${data.languages.map(lang => `<li>${lang.language} – ${lang.level}</li>`).join('')}
+                </ul>
+            `;
+
+            // Volunteer
+            document.getElementById('volunteer-title').textContent = data.sections.volunteer;
+            const volunteerContent = document.getElementById('volunteer-content');
+            volunteerContent.innerHTML = data.volunteer.map(vol => `
+                <div class="job">
+                    <div class="job-header">
+                        <h3>${vol.title}</h3>
+                        <span class="date">${vol.period}</span>
+                    </div>
+                    <p class="company">${vol.organization}</p>
+                    <ul>
+                        <li>${vol.description}</li>
+                    </ul>
+                </div>
+            `).join('');
+
+            // Footer
+            document.getElementById('last-update').textContent = data.personal.lastUpdate;
+            document.getElementById('download-pdf-btn').textContent = data.sections.downloadPDF;
+        }
+
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            localStorage.setItem('resumeLanguage', lang);
+
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
+
+            // Load and render data
+            loadData(lang);
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            setLanguage(currentLanguage);
+
+            // Language button listeners
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    setLanguage(lang);
+                });
+            });
+
+            // PDF Download
+            document.getElementById('download-pdf-btn').addEventListener('click', function() {
+                window.print();
+            });
         });
     </script>
 </body>

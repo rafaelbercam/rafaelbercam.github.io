@@ -1,0 +1,178 @@
+{
+  "personal": {
+    "name": "RAFAEL BERÇAM",
+    "title": "QA Engineer Specialist | SDET | Testes Automatizados",
+    "location": "Belo Horizonte, MG, Brasil",
+    "email": "faelbercam@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rafaelbercam",
+    "github": "https://github.com/rafaelbercam",
+    "lastUpdate": "Última atualização: Abril 2026"
+  },
+  "experience": [
+    {
+      "title": "QA Engineer Specialist",
+      "company": "Zup Innovation, Belo Horizonte, MG, Brasil",
+      "period": "Jul 2022 – Presente",
+      "responsibilities": [
+        "Testes de API com Rest-assured (Kotlin) e Playwright (TypeScript)",
+        "Desenvolvimento de API com Kotlin + Spring Boot",
+        "Desenvolvimento front-end com Angular e React"
+      ]
+    },
+    {
+      "title": "Tech Lead",
+      "company": "Zup Innovation, Belo Horizonte, MG, Brasil",
+      "period": "Out 2021 – Jul 2022",
+      "responsibilities": [
+        "Liderança técnica e gerenciamento de times para entrega de projetos",
+        "Mentoria e desenvolvimento de carreira dos membros da equipe",
+        "Definição de estratégias de produção com times ágeis"
+      ]
+    },
+    {
+      "title": "Senior QA Automation Engineer",
+      "company": "Zup Innovation, Belo Horizonte, MG, Brasil",
+      "period": "Set 2020 – Jun 2021",
+      "responsibilities": [
+        "Testes de automação de microsserviços REST (Rest-assured - Java)",
+        "Testes automatizados mobile (Espresso, XCUITest, Appium - Java)",
+        "Testes de segurança e performance",
+        "Desenvolvimento com Spring Boot e Micronaut (Java/Kotlin)"
+      ]
+    },
+    {
+      "title": "Senior QA Automation Engineer",
+      "company": "Syngenta Digital Brasil, Belo Horizonte, MG, Brasil",
+      "period": "Abr 2020 – Set 2020",
+      "responsibilities": [
+        "Automação de testes mobile com WebdriverIO para React Native (Node.js)",
+        "Automação de testes Web com Cypress.io (Node.js)",
+        "Testes de performance de APIs com Artillery.io"
+      ]
+    },
+    {
+      "title": "QA Automation Engineer | Tech Lead | Chapter Lead",
+      "company": "MaxMilhas, Belo Horizonte, MG, Brasil",
+      "period": "Out 2018 – Abr 2020",
+      "responsibilities": [
+        "Automação de testes mobile (Espresso - Kotlin, XCUITest - Swift, Appium - Ruby)",
+        "Automação de testes Web (Cypress.io - Node.js)",
+        "Automação de testes API (Mocha & Chai - TypeScript, HTTParty - Ruby)",
+        "Análise de métricas de produto e otimização de processos de desenvolvimento ágil"
+      ]
+    },
+    {
+      "title": "QA Automation Engineer",
+      "company": "conta.MOBI, Belo Horizonte, MG, Brasil",
+      "period": "Fev 2018 – Out 2018",
+      "responsibilities": [
+        "Planejamento e execução de testes funcionais, exploratórios e de regressão",
+        "Automação de testes de regressão, E2E, performance e carga"
+      ]
+    },
+    {
+      "title": "QA Engineer",
+      "company": "Algar Tech, Belo Horizonte, MG, Brasil",
+      "period": "Out 2012 – Jan 2018",
+      "responsibilities": [
+        "Análise de requisitos, modelagem e automação de testes (Selenium-WebDriver + Cucumber - Ruby/Java)",
+        "Relatórios de qualidade e rastreabilidade de cenários executados"
+      ]
+    },
+    {
+      "title": "QA Engineer",
+      "company": "SISLOC, Belo Horizonte, MG, Brasil",
+      "period": "Abr 2011 – Out 2012",
+      "responsibilities": [
+        "Treinamento de usuários, levantamento de requisitos e consultoria",
+        "Automação e melhoria dos processos de teste"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bacharel em Tecnologia (B.Tech.) Tecnologia da Informação",
+      "institution": "Centro Universitário UNA",
+      "period": "2012 – 2014"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Tester Foundation Level (CTFL) – ISTQB",
+      "year": "2015"
+    },
+    {
+      "name": "Certified Agile Tester (CAT) – iSQI",
+      "year": "2017"
+    },
+    {
+      "name": "Scrum Foundation Professional Certificate (SFPC) – CertiProf",
+      "year": "2020"
+    },
+    {
+      "name": "DevOps Essentials Professional Certificate (DEPC) – CertiProf",
+      "year": "2020"
+    },
+    {
+      "name": "English Conversation Practice – Cambly Inc.",
+      "year": "2020"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Testes de API",
+      "description": "Rest-assured (Kotlin/Java), Mocha & Chai (TypeScript)"
+    },
+    {
+      "category": "Testes Web",
+      "description": "Cypress.io (Node.js), Playwright (TypeScript)"
+    },
+    {
+      "category": "Testes Mobile",
+      "description": "Espresso (Kotlin), XCUITest (Swift), Appium (Java/Ruby)"
+    },
+    {
+      "category": "Testes de Performance",
+      "description": "Artillery.io, JMeter"
+    },
+    {
+      "category": "Desenvolvimento",
+      "description": "Kotlin + Spring Boot, Micronaut, Angular, React"
+    },
+    {
+      "category": "Linguagens e Frameworks",
+      "description": "Java, Kotlin, TypeScript, Ruby, Swift, Node.js"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglês",
+      "level": "Avançado"
+    },
+    {
+      "language": "Espanhol",
+      "level": "Intermediário"
+    },
+    {
+      "language": "Português",
+      "level": "Nativo"
+    }
+  ],
+  "volunteer": [
+    {
+      "title": "Instrutor de Informática",
+      "organization": "Assprom, Educação",
+      "period": "Jan 2007 – Dez 2007",
+      "description": "Ensino de informática para jovens trabalhadores"
+    }
+  ],
+  "sections": {
+    "experience": "EXPERIÊNCIA PROFISSIONAL",
+    "education": "EDUCAÇÃO",
+    "certifications": "CERTIFICAÇÕES E CREDENCIAIS",
+    "skills": "HABILIDADES TÉCNICAS",
+    "languages": "IDIOMAS",
+    "volunteer": "EXPERIÊNCIA VOLUNTÁRIA",
+    "downloadPDF": "📥 Baixar PDF"
+  }
+}
