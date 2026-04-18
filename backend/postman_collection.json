@@ -1,0 +1,242 @@
+{
+  "info": {
+    "name": "Resume JSON API",
+    "description": "Postman collection para testar a API de CRUD do currículo em Português e Inglês com autenticação JWT.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"password\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Curriculum - Read",
+      "item": [
+        {
+          "name": "Get Full Curriculum PT",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Full Curriculum EN",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/en",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "en"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Personal PT",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/personal",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "personal"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Experience PT",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/experience",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "experience"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Skills EN",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/en/skills",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "en", "skills"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Curriculum - Write",
+      "item": [
+        {
+          "name": "Update Personal PT",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"location\": \"Belo Horizonte, MG, Brasil\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/personal",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "personal"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Add Experience PT",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"QA Automation Engineer\",\n  \"company\": \"Example Corp, Belo Horizonte, MG, Brasil\",\n  \"period\": \"May 2026 – Present\",\n  \"responsibilities\": [\n    \"Automação de testes com IA\",\n    \"Validação de casos de uso críticos\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/experience",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "experience"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Experience PT Index 0",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"QA Engineer Specialist\",\n  \"company\": \"Zup Innovation, Belo Horizonte, MG, Brasil\",\n  \"period\": \"Jul 2022 – Presente\",\n  \"responsibilities\": [\n    \"Testes de API com Rest-assured (Kotlin) e Playwright (TypeScript)\",\n    \"Desenvolvimento de API com Kotlin + Spring Boot\",\n    \"Desenvolvimento front-end com Angular e React\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/experience/0",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "experience", "0"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Experience PT Index 0",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/curriculum/pt/experience/0",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "curriculum", "pt", "experience", "0"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:4000"
+    },
+    {
+      "key": "token",
+      "value": ""
+    }
+  ]
+}
